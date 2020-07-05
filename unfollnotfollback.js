@@ -157,7 +157,7 @@ console.log(chalk`
   [✓] SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net
   [✓] New Fixing and Cleaning Code | XCode 
   —————————————————————————————————————————————————————
-      `);
+       }`);
 
 inquirer.prompt(User)
 .then(answers => {
