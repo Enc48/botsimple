@@ -120,8 +120,7 @@ const Excute = async function(User,sleep,mysyntx){
 		Following(doLogin.session, doLogin.account.id)
 		]
 		const [getFollowers, getFollowing] = await Promise.all(task);
-		console.log(chalk`{bold.lime  | Followers : ${getFollowers.length}\n
-		 | Following : ${getFollowing.length}}`);
+		console.log(chalk`{bold.lime  | Followers : ${getFollowers.length}\n | Following : ${getFollowing.length}}`);
 		var AccountToUnfollow = [];
 		await Promise.all(getFollowing.map(async(account) => {
 			if (!getFollowers.includes(account)) {
