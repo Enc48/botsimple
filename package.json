@@ -6,7 +6,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "delay": "^2.0.0",
-    "inquirer": "^4.0.1",
+    "inquirer": "^14.0.0",
     "instagram-private-api": "^1.46.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
